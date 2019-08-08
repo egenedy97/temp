@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script language="javascript" src="js/bootstrap.min.js"></script>
+  </head>
+  <body style="background-color: #FAFAFA">
+
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-lg" style=" background-color:#fff;"> 
+      <a class="navbar-brand" href="#"><b class="logo">LOGO</b></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+<div class="tabs">
+  <div class="tab-button-outer">
+    <ul id="tab-button">
+      <li><a href="#tab01">Tab 1</a></li>
+      <li><a href="#tab02">Tab 2</a></li>
+      <li><a href="#tab03">Tab 3</a></li>
+     
+    </ul>
+  </div>
+    <div class="tab-select-outer">
+      <select id="tab-select">
+        <option value="#tab01">Tab 1</option>
+        <option value="#tab02">Tab 2</option>
+        <option value="#tab03">Tab 3</option>
+      </select>
+    </div>
+</div>
+
+<div class="navbar-text" style="float:left;">
+  <p class="user" style="display: inline">Agency Admin   
+    <img src="./images/user.png" alt="user" 
+    style="color:rgb(6, 93, 93); margin-left:30px;">
+    <div class="nav-item dropdown" style="float: right ; display:inline;">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </div>
+  </p>
+</div>
+  </nav>    
+<!--Side Nav-->
+
+<div class="sidenav">
+    <div class="toggles">
+      <a href="#"><img src="./images/xd/toggle.png" alt="toggle" class="img-p" style="float: left;"></a>
+  </div>
+    <br/>
+    <a href="#"><img src="./images/xd/bed.png" alt="bed" class="img-p"><p class="nav-p">Accomodation</p></a>
+    <a href="#"><img src="./images/xd/car.png" alt="car"  class="img-p"><p class="nav-p">Transportation</p></a>
+    <a href="#"><img src="./images/xd/tour-guide.png" alt="tourguide"  class="img-p"><p class="nav-p">Tour Guides</p></a>
+    <a href="#"><img src="./images/xd/hot-air-balloon.png" alt="accomodation"  class="img-p"><p class="nav-p">Sightseeing</p></a>
+    <a href="#"><img src="./images/xd/plane copy.png" alt="accomodation"  class="img-p"><p class="nav-p">Flights</p></a>
+    <a href="#"><img src="./images/xd/story copy.png" alt="accomodation"  class="img-p"><p class="nav-p">Trip Programs</p></a>
+    <a href="#"><img src="./images/xd/file copy.png" alt="accomodation"  class="img-p"><p class="nav-p">Archived</p></a>
+    <a href="#"><img src="./images/xd/Groups.png" alt="accomodation"  class="img-p"> <p class="nav-p">Account</p>
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+    
+    </a>
+  </div>
+  <!-- body -->
+      <div class="container">
+          <div class="row">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-11">
+              <button class="btn btn-info" style="background-color:#0071AA;border:0px ;border-radius:0px;margin-top:50px;">
+                Add Tour Guide
+              </button>
+              <input type="text" class="form-control " style="width:50%;float: right;margin-top:50px;" placeholder="Search">
+              <!--table-->
+                <table class="table table-bordered text-center">
+                    <thead>
+                      <tr>
+                        
+                        <th scope="col">Name</th>
+                        <th scope="col">Number</th>
+                        <th scope="col">City</th>
+                        
+                        <th scope="col">Fees</th>
+                        <th scope="col">Language</th>
+                        <th scope="col"></th>
+                        
+    
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr></tr> 
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <td>asdfasdf</td>
+                      </tr>
+                      
+                      <tr>
+                        
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+    
+                      </tr>
+                      <tr>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                      <tr></tr> 
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>            
+        </div>
+      </div>
+  <script src="/javascripts/style.js"></script>
+  
+  </body>
+</html>

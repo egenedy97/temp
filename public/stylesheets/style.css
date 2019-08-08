@@ -1,0 +1,117 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+
+}
+/* navbar*/
+
+
+.logo{
+  color:#0071AA;
+  font-family: sans-serif;
+}
+
+
+.tabs {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-bottom: 0px;
+}
+#tab-button {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  
+}
+#tab-button li {
+  display: table-cell;
+  width: 30%;
+
+}
+#tab-button li a {
+  display: block;
+  padding: .5em;
+  background: #EAEAEA;
+  border: 1px solid #ddd;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+}
+#tab-button li:not(:first-child) a {
+  border-left: none;
+}
+#tab-button li a:hover,
+#tab-button .is-active a {
+  border-bottom-color: transparent;
+  background: #fafafa;
+}
+.tab-contents {
+  padding: .5em 2em 1em;
+  border: 1px solid #ddd;
+}
+
+
+
+.tab-button-outer {
+  display: none;
+}
+.tab-contents {
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .tab-button-outer {
+    position: relative;
+    z-index: 2;
+    display: block;
+  }
+  .tab-select-outer {
+    display: none;
+  }
+  .tab-contents {
+    position: relative;
+    top: -1px;
+    margin-top: 0;
+  }
+}
+
+/*Side Nav*/
+.sidenav {
+  height: 100%;
+  width: 170px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #FAFAFA;
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-top:73px;
+  border-right: #EAEAEA 1px solid
+
+}
+
+.sidenav a {
+  /* padding: 6px 6px 6px 32px; */
+  text-decoration: none;
+  font-size: 14px;
+  color: #818181;
+  display: inline-block;
+  margin-left: 2px;
+  margin-right: 15px;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.nav-p
+{
+  color: #000; 
+  float: right;
+  display: inline;
+  margin-left: 5px;
+  padding-left: 1px;
+}
